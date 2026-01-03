@@ -44,7 +44,7 @@ class OCRService:
         Returns:
             ExtractedPage with extracted text
         """
-        prompt = """Extract ALL text from this document accurately.
+        prompt = """You are an Expert Document Parser. Extract ALL text from this document accurately.
         
 Rules:
 - Extract text exactly as shown, maintaining structure
