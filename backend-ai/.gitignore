@@ -10,6 +10,10 @@ ENV/
 
 # Environment variables
 .env
+.env.example
+.env.local
+.env.test
+.env.production
 
 # IDE
 .vscode/
