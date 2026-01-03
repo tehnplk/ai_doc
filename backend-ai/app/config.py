@@ -9,7 +9,7 @@ class Settings(BaseSettings):
 
     # Google API
     google_api_key: str = ""
-    google_cloud_project: str = ""
+
 
     # Database
     database_url: str = "postgresql://root:112233@localhost:5433/doc-ai"
